@@ -13,5 +13,6 @@ The only requirements are C++20, GLM (included here a Git submodule) and CMake.
 Call it like this:
 `voxelizer <input-obj-file> <dimension-x> <dimension-y> <dimension-z> <samples-per-texel> <output-file>`
 # Examples
+
 | Stanford bunny | ![bunny-blender](https://github.com/lisyarus/voxelizer/blob/main/examples/bunny/bunny-blender.png?raw=true) | ![bunny-volumetric](https://github.com/lisyarus/voxelizer/blob/main/examples/bunny/bunny-volumetric.png?raw=true) |
 | Example scene | ![house-blender](https://github.com/lisyarus/voxelizer/blob/main/examples/house/house-blender.png?raw=true) | ![house-volumetric](https://github.com/lisyarus/voxelizer/blob/main/examples/house/house-volumetric.png?raw=true) |
