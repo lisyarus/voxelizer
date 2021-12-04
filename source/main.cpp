@@ -48,7 +48,7 @@ namespace
 
 int main(int argc, char ** argv) try {
 	if (argc != 7) {
-		std::cout << "Usage: voxelizer <input-obj> <x-dim> <y-dim> <z-dim> <nsamples> <out-file>\n";
+		std::cout << "Usage: voxelizer <input-obj-file> <x-resolution> <y-resolution> <z-resolution> <samples-per-texel> <output-file>\n";
 		return EXIT_FAILURE;
 	}
 
